@@ -1,0 +1,20 @@
+.jumbotron {
+	padding-left: 12px;
+}
+
+.btn-lg {
+	
+}
+
+legend {
+	padding-left: 12px;
+
+}
+
+.hide {
+	display : none;
+}
+
+.show {
+	display: visible;
+}
