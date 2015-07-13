@@ -11,89 +11,99 @@
 <div class="jumbotron">
   <h1>Cat-A-Log</h1>
   <p>Welcome to Cat-A-Log!</p>
-  <p>Click the button below to begin.</p>
+  <p>Click the "Add A Cat" button to begin.</p>
   <br>
-  <p><a class="btn btn-primary btn-lg">Add A Cat</a></p>
+  <p><a class="btn btn-primary btn-lg cat-add">Add A Cat</a></p>
+	
+	<form class="form-horizontal hide init-form">
+	  <fieldset>
+	  <div class="">
+	    <legend>Basic Information</legend>
+
+	    <div class="form-group">
+	      <label for="inputName" class="col-lg-2 control-label">Cat Name</label>
+	      <div class="col-lg-10">
+	        <input type="text" class="form-control" id="inputName" placeholder="Enter Name">
+	      </div>
+	    </div>
+
+	    <div class="form-group">
+	      <label for="inputAge" class="col-lg-2 control-label">Cat Age</label>
+	      <div class="col-lg-10">
+	        <input type="Enter Age" class="form-control" id="inputCatGender" placeholder="Enter Age">
+	      </div>
+	    </div>
+
+	    <div class="form-group">
+	      <label for="inputBreed" class="col-lg-2 control-label">Cat Breed</label>
+	      <div class="col-lg-10">
+	        <input type="Enter Breed" class="form-control" id="inputCatGender" placeholder="Enter Breed">
+	      </div>
+	    </div>
+
+	    <div class="form-group">
+	      <label for="inputCoatColor" class="col-lg-2 control-label">Cat Coat Color</label>
+	      <div class="col-lg-10">
+	        <input type="Enter Coat Color" class="form-control" id="inputCatGender" placeholder="Enter Coat Color">
+	      </div>
+	    </div>
+
+	    <div class="form-group">
+	      <label for="inputEyeColor" class="col-lg-2 control-label">Cat Eye Color</label>
+	      <div class="col-lg-10">
+	        <input type="Enter Eye Color" class="form-control" id="inputCatGender" placeholder="Enter Eye Color">
+	      </div>
+	    </div>
+
+	    <div class="form-group">
+	      <label class="col-lg-2 control-label">Select Cat's Gender</label>
+	      <div class="col-lg-10">
+	        <div class="radio">
+	          <label>
+	            <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
+	            Female
+	          </label>
+	        </div>
+	        <div class="radio">
+	          <label>
+	            <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2" checked="">
+	            Female (S)
+	          </label>
+	        </div>
+	        <div class="radio">
+	          <label>
+	            <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3">
+	            Male
+	          </label>
+	        </div>
+	        <div class="radio">
+	          <label>
+	            <input type="radio" name="optionsRadios" id="optionsRadios4" value="option4">
+	            Male (N)
+	          </label>
+	        </div>
+	      	</div>
+	      </div>
+	    </div>
+
+	<div class="form-group hide">
+      <label for="textArea" class="col-lg-2 control-label">Health/Diet Notes</label>
+	      <div class="col-lg-10">
+	        <textarea class="form-control" rows="3" id="textArea"></textarea>
+	        <span class="info-block">Please enter any general health and/or diet related information here.</span>
+	      </div>
+    </div>
+    
+    <div data="data" class="form-group">
+	      <div class="col-lg-10 col-lg-offset-2">
+	        <button type="reset" class="btn btn-default">Cancel</button>
+	        <button type="submit" class="btn btn-primary next-add">Submit</button>
+	      </div>
+	    </div>
+	  </fieldset>
+	</form>
 </div>
 
-<form class="form-horizontal hide">
-  <fieldset>
-    <legend>Basic Information</legend>
-
-    <div class="form-group">
-      <label for="inputName" class="col-lg-2 control-label">Cat Name</label>
-      <div class="col-lg-10">
-        <input type="text" class="form-control" id="inputName" placeholder="Enter Name">
-      </div>
-    </div>
-
-    <div class="form-group">
-      <label for="inputAge" class="col-lg-2 control-label">Cat Age</label>
-      <div class="col-lg-10">
-        <input type="Enter Age" class="form-control" id="inputCatGender" placeholder="Enter Age">
-      </div>
-    </div>
-
-    <div class="form-group">
-      <label for="inputBreed" class="col-lg-2 control-label">Cat Breed</label>
-      <div class="col-lg-10">
-        <input type="Enter Breed" class="form-control" id="inputCatGender" placeholder="Enter Breed">
-      </div>
-    </div>
-
-    <div class="form-group">
-      <label for="inputCoatColor" class="col-lg-2 control-label">Cat Coat Color</label>
-      <div class="col-lg-10">
-        <input type="Enter Coat Color" class="form-control" id="inputCatGender" placeholder="Enter Coat Color">
-      </div>
-    </div>
-
-    <div class="form-group">
-      <label for="inputEyeColor" class="col-lg-2 control-label">Cat Eye Color</label>
-      <div class="col-lg-10">
-        <input type="Enter Eye Color" class="form-control" id="inputCatGender" placeholder="Enter Eye Color">
-      </div>
-    </div>
-
-    <div class="form-group">
-      <label class="col-lg-2 control-label">Select Cat's Gender</label>
-      <div class="col-lg-10">
-        <div class="radio">
-          <label>
-            <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
-            Female
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2" checked="">
-            Female (S)
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3">
-            Male
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="optionsRadios" id="optionsRadios4" value="option4">
-            Male (N)
-          </label>
-        </div>
-      </div>
-    </div>
-
-    <div class="form-group">
-      <div class="col-lg-10 col-lg-offset-2">
-        <button type="reset" class="btn btn-default">Cancel</button>
-        <button type="submit" class="btn btn-primary">Submit</button>
-      </div>
-    </div>
-  </fieldset>
-</form>
-	
 	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 	<script src="main.js"></script>
 

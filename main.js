@@ -1,6 +1,11 @@
 $(document).on('ready', function() {
 
-$(".btn-lg").on('click', function(){
+$(".cat-add").on('click', function(event){
+	event.preventDefault()
+	$('.init-form').addClass('show').removeClass('hide');
+	});
+
+$(".next-add").on('click', function(){
 	$('.hide').addClass('show').removeClass('hide');
 	});
 	
