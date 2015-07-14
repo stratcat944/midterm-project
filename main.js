@@ -33,5 +33,24 @@ $(".final-add").on('click', function(event){
 	$('.form-three').hide();
 	$('.form-four').show();
 })
+
+var submitInfo 	= {
+	catName		: "name",
+	catAge 		: "age",
+	catBreed	: "breed",
+	coatColor	: "coatColor",
+	eyeColor	: "eyeColor",
+	gender		: "gender",
+	status		: "status",
+	healthNotes	: "text",
+	locOrigin	: "text",
+	history		: "text"
+};
+
+
+
   
+
+
+
 });  
