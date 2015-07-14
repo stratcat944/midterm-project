@@ -47,8 +47,8 @@ var submitInfo 	= {
 	history		: "text"
 };
 
-var radios = $("input[type='radio']");
-radios.filter:(":checked")
+// var radios = $("input[type='radio']");
+// radios.filter:(":checked")
 
   
 
