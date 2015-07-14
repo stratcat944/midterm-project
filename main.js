@@ -4,6 +4,7 @@ $(document).on('ready', function() {
 
 $(".cat-add").on('click', function(event){
 	event.preventDefault()
+	$('.cat-add').hide();
 	$('.init-form').show();
 	});
 
