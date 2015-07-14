@@ -11,13 +11,15 @@
 <div class="jumbotron">
   <h1>Cat-A-Log</h1>
   <p>Welcome to Cat-A-Log!</p>
+  <div class="cat-add">
   <p>Click the "Add A Cat" button to begin.</p>
   <br>
   <p><a class="btn btn-primary btn-lg cat-add">Add A Cat</a></p>
+  </div>
 	
 	<form class="form-horizontal init-form">
 	  <fieldset>
-	  <div class="">
+	  <div>
 	    <legend>Basic Information</legend>
 
 	    <div class="form-group">
@@ -97,6 +99,7 @@
 	</form>
 
 	<form>
+	<fieldset>
 	<div class="form-two">
 		<div class="form-group">
 	      <label for="textArea" class="col-lg-2 control-label">Health/Diet Notes</label>
@@ -106,6 +109,13 @@
 		      </div>
 	    </div>
 	</div>
+	<div class="form-group form-two">
+      <div class="col-lg-10 col-lg-offset-2">
+        <button type="reset" class="btn btn-default">Cancel</button>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+    </div>
+    </fieldset>
 	</form>
 
 </div><!-- End Jumbotron -->
