@@ -1,15 +1,16 @@
 $(document).on('ready', function() {
-
+	$('.init-form').hide();
+	$('.form-two').hide();
+	
 $(".cat-add").on('click', function(event){
-	event.preventDefault()
-	$('.init-form').addClass('show').removeClass('hide');
+	$('.init-form').show();
 	});
 
 $(".next-add").on('click', function(event){
 	event.preventDefault()
-	$('.hide').addClass('show').removeClass('hide');
+	$('.init-form').hide();
+	$('.form-two').show();
 	});
-	
 
 
   
