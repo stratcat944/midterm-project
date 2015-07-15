@@ -47,6 +47,10 @@ var submitInfo 	= {
 	history		: "text"
 };
 
+$(function() {
+    $( ".date-picker" ).datepicker();
+  });
+
 // var radios = $("input[type='radio']");
 // radios.filter:(":checked")
 
