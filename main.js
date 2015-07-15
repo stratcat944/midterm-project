@@ -34,25 +34,35 @@ $(".final-add").on('click', function(event){
 	$('.form-four').show();
 })
 
-var submitInfo 	= {
-	catName		: "name",
-	catAge 		: "age",
-	catBreed	: "breed",
-	coatColor	: "coatColor",
-	eyeColor	: "eyeColor",
-	gender		: "gender",
-	status		: "status",
-	healthNotes	: "text",
-	locOrigin	: "text",
-	history		: "text"
-};
+// var submitInfo 	= {
+// 	catName		: "name",
+// 	catAge 		: "age",
+// 	catBreed	: "breed",
+// 	coatColor	: "coatColor",
+// 	eyeColor	: "eyeColor",
+// 	gender		: "gender",
+// 	status		: "status",
+// 	healthNotes	: "text",
+// 	locOrigin	: "text",
+// 	history		: "text"
+// };
 
 $(function() {
     $( ".date-picker" ).datepicker();
   });
 
+
+$('#submit1').on('click', function(){
+	var name 	= $('#inputName').val();
+	var age 	= $('#inputAge').val();
+
+
+
+	console.log(name);
+	});
+
 // var radios = $("input[type='radio']");
-// radios.filter:(":checked")
+// radios.filter:(":checked");
 
 
 
