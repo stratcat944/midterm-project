@@ -120,22 +120,22 @@
 	<form>
 	<fieldset>
 		<div class="container">
-		<div class="form-group form-two">
-	      <label for="textArea" class="col-lg-2 control-label">Health/Diet Notes</label>
-		      <div class="col-lg-10">
-		        <textarea class="form-control" rows="3" id="textArea"></textarea>
-		        <span class="info-block">Please enter any general health and/or diet related information here.</span>
-		      </div>
-	    </div>
+			<div class="form-group form-two">
+	      	<label for="textArea" class="col-lg-2 control-label">Health/Diet Notes</label>
+		      	<div class="col-lg-10">
+		        	<textarea class="form-control" rows="3" id="textArea"></textarea>
+		        	<span class="info-block">Please enter any general health and/or diet related information here.</span>
+		      	</div>
+	    	</div>
 	
 	<!-- 	Form 2 Buttons -->
 
-	<div data="data" class="form-group form-two">
-      <div class="col-lg-10 col-lg-offset-2">
-        <button type="reset" class="btn btn-default">Cancel</button>
-        <button type="submit" id="submit" class="btn btn-primary third-add">Submit</button>
-      </div>
-    </div>
+		<div data="data" class="form-group form-two">
+      	<div class="col-lg-10 col-lg-offset-2">
+        	<button type="reset" class="btn btn-default">Cancel</button>
+        	<button type="submit" id="submit" class="btn btn-primary third-add">Submit</button>
+      	</div>
+    	</div>
     </fieldset>
 	</form>
 
@@ -143,7 +143,8 @@
 
 	<form>
 	<fieldset>
-	<div class="row">
+	<div class="container">
+		<div class="row">
 			<div class="form-group form-three">
 	    		<label for="textArea" class="col-lg-2 control-label">Current Location/Origin</label>
 		    	<div class="col-lg-10">
@@ -151,17 +152,21 @@
 		    		<span class="info-block">Enter cat's current location and origin.</span>
 		    	</div>
 	  		</div>
+		</div>
 
 <!-- Form 3 Radio Buttons -->
 
 		<div class="form-group form-three">
 
+	<div class="row">
 	<!-- Date Picker Goes Here -->
-	
-		<div class="date-picker"></div>
+		<div class="col-sm-6">
+			<div class="date-picker"></div>
+		</div>
 		
 <!-- 	Radio Buttons - Cat Placement Status  -->
 
+		<div class="col-sm-6">
 			<div class="radio-pos">
 	      	<label class="col-lg-2 control-label">Select Placement Status</label>
 	      		<div class="col-lg-10">
@@ -187,6 +192,7 @@
 	        		</div>
 				</div>
 	  		</div>
+	  		</div>
 	  	</div>
 	</div>
 
@@ -198,9 +204,11 @@
         <button type="submit" id="submit" class="btn btn-primary final-add">Submit</button>
       </div>
     </div>
-    </div>
-		  </fieldset>
-		  </form>
+    
+    	</div>
+    	</div>
+		</fieldset>
+	</form>
 
 <!-- 		  Form Page 4      -->
 
