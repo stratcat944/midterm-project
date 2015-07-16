@@ -1,5 +1,5 @@
 $(document).on('ready', function() {
-	$('.init-form').hide();
+	$('.form-one').hide();
 	$('.form-two').hide();
 	$('.form-three').hide();
 	$('.form-four').hide();
@@ -7,19 +7,19 @@ $(document).on('ready', function() {
 $(".cat-add").on('click', function(event){
 	event.preventDefault()
 	$('.cat-add').hide();
-	$('.init-form').show();
+	$('.form-one').show();
 	});
 
 $(".next-add").on('click', function(event){
 	event.preventDefault()
-	$('.init-form').hide();
+	$('.form-one').hide();
 	$('.cat-add').hide();
 	$('.form-two').show();
 	});
 
 $(".third-add").on('click', function(event){
 	event.preventDefault()
-	$('.init-form').hide();
+	$('.form-one').hide();
 	$('.cat-add').hide();
 	$('.form-two').hide();
 	$('.form-three').show();
@@ -27,7 +27,7 @@ $(".third-add").on('click', function(event){
 
 $(".final-add").on('click', function(event){
 	event.preventDefault()
-	$('.init-form').hide();
+	$('.form-one').hide();
 	$('.cat-add').hide();
 	$('.form-two').hide();
 	$('.form-three').hide();
