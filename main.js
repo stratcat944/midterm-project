@@ -53,8 +53,8 @@ $(function() {
 
 
 $('#submit1').on('click', function(){
-	var name 	= $('#inputName').val();
-	var age 	= $('#inputAge').val();
+	var name 	= $('#name').val()
+	var age 	= $('#age').val()
 
 
 
