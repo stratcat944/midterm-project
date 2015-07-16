@@ -48,9 +48,7 @@ $(".final-add").on('click', function(event){
 // };
 
 
- $('#intakeDate').datepicker();
-
-
+$('#intakeDate').datepicker();
 
 $('#submit1').on('click', function(){
 	var name = $('#name').val();
@@ -64,9 +62,17 @@ $('#submit1').on('click', function(){
 });
 
 $('#submit2').on('click', function(){
-	var textBox1 = $('#textArea').val();
+	var textBox1 = $('#textArea1').val();
 
 	console.log(textBox1);
+})
+
+$('#submit3').on('click', function(){
+	var textBox2 = $('#textArea2').val();
+	var intakeDate = $('#intakeDate').val();
+	var placement = $('#radio2 input:checked').val()
+
+	console.log(textBox2, intakeDate, placement);
 })
 
 
