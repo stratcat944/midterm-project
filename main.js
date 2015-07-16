@@ -53,16 +53,18 @@ $(function() {
 
 
 $('#submit1').on('click', function(){
-	var name 	= $('#inputName').val();
-	var age 	= $('#inputAge').val();
+	var name = $('#name').val();
+	var age = $('#age').val();
+	var breed = $('#breed').val();
+	var coatColor = $('#coatColor').val();
+	var	eyeColor = $('#eyeColor').val();
+	var gender = $('#radio1 input:checked').val();
+
+	console.log(name, age, breed, coatColor, eyeColor, gender);
+});
 
 
 
-	console.log(name);
-	});
-
-// var radios = $("input[type='radio']");
-// radios.filter:(":checked");
 
 
 
