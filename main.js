@@ -47,9 +47,9 @@ $(".final-add").on('click', function(event){
 // 	history		: "text"
 // };
 
-$(function() {
-    $( ".date-picker" ).datepicker();
-  });
+
+ $('#intakeDate').datepicker();
+
 
 
 $('#submit1').on('click', function(){
@@ -68,6 +68,8 @@ $('#submit2').on('click', function(){
 
 	console.log(textBox1);
 })
+
+
 
 
 
