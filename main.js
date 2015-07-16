@@ -3,6 +3,7 @@ $(document).on('ready', function() {
 	$('.form-two').hide();
 	$('.form-three').hide();
 	$('.form-four').hide();
+	$('.form-five').hide();
 
 $(".cat-add").on('click', function(event){
 	event.preventDefault()
@@ -34,6 +35,17 @@ $(".final-add").on('click', function(event){
 	$('.form-four').show();
 })
 
+// $(".last-page").on('click', function(event){
+// 	event.preventDefault()
+// 	$('form-one').hide();
+// 	$('cat-add').hide();
+// 	$('form-two').hide();
+// 	$('form-three').hide();
+// 	$('form-four').hide();
+// 	$('form-five').show();
+
+// })
+
 $('#intakeDate').datepicker();
 
 $('#submit1').on('click', function(){
@@ -64,15 +76,9 @@ $('#submit3').on('click', function(){
 $('#submit4').on('click', function(){
 	var textBox3 = $('#textArea3').val();
 
+
 	console.log(textBox3);
 })
-
-
-
-
-
-
-
   
 
 });  
