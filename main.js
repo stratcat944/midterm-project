@@ -53,12 +53,17 @@ $(function() {
 
 
 $('#submit1').on('click', function(){
+<<<<<<< HEAD
 	var name = $('#name').val();
 	var age = $('#age').val();
 	var breed = $('#breed').val();
 	var coatColor = $('#coatColor').val();
 	var	eyeColor = $('#eyeColor').val();
 	var gender = $('#radio1 input:checked').val();
+=======
+	var name 	= $('#name').val()
+	var age 	= $('#age').val()
+>>>>>>> 8f0a698e6e632fcb2489b4db93a6f68a0690f5b7
 
 	console.log(name, age, breed, coatColor, eyeColor, gender);
 });
