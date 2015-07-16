@@ -63,6 +63,11 @@ $('#submit1').on('click', function(){
 	console.log(name, age, breed, coatColor, eyeColor, gender);
 });
 
+$('#submit2').on('click', function(){
+	var textBox1 = $('#textArea').val();
+
+	console.log(textBox1);
+})
 
 
 
