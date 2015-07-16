@@ -35,16 +35,16 @@ $(".final-add").on('click', function(event){
 	$('.form-four').show();
 })
 
-// $(".last-page").on('click', function(event){
-// 	event.preventDefault()
-// 	$('form-one').hide();
-// 	$('cat-add').hide();
-// 	$('form-two').hide();
-// 	$('form-three').hide();
-// 	$('form-four').hide();
-// 	$('form-five').show();
+$(".last-page").on('click', function(event){
+	event.preventDefault()
+	$('.form-one').hide();
+	$('.cat-add').hide();
+	$('.form-two').hide();
+	$('.form-three').hide();
+	$('.form-four').hide();
+	$('.form-five').show();
 
-// })
+})
 
 $('#intakeDate').datepicker();
 
