@@ -70,9 +70,15 @@ $('#submit2').on('click', function(){
 $('#submit3').on('click', function(){
 	var textBox2 = $('#textArea2').val();
 	var intakeDate = $('#intakeDate').val();
-	var placement = $('#radio2 input:checked').val()
+	var placement = $('#radio2 input:checked').val();
 
 	console.log(textBox2, intakeDate, placement);
+})
+
+$('#submit4').on('click', function(){
+	var textBox3 = $('#textArea3').val();
+
+	console.log(textBox3);
 })
 
 
