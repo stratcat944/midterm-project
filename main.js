@@ -14,17 +14,20 @@ $(".cat-add").on('click', function(event){
 
 $(".next-add").on('click', function(event){
 	event.preventDefault()
+
 	var name = $('#name').val();
 	var age = $('#age').val();
 	var breed = $('#breed').val();
 	var coatColor = $('#coatColor').val();
 	var	eyeColor = $('#eyeColor').val();
 	var gender = $('#radio1 input:checked').val();
+
+	$('.name').text(name);
+
 	$('.form-one').hide();
 	$('.cat-add').hide();
 	$('.form-two').show();
-	$('.name').text(name);
-	});
+});
 
 $(".third-add").on('click', function(event){
 	event.preventDefault()
