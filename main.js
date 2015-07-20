@@ -18,11 +18,17 @@ $(".next-add").on('click', function(event){
 	var name = $('#name').val();
 	var age = $('#age').val();
 	var breed = $('#breed').val();
-	var coatColor = $('#coatColor').val();
-	var	eyeColor = $('#eyeColor').val();
+	var coat = $('#coat').val();
+	var	eye = $('#eye').val();
 	var gender = $('#radio1 input:checked').val();
 
 	$('.name').text(name);
+	$('.age').text(age);
+	$('.breed').text(breed);
+	$('.coat').text(coat);
+	$('.eye').text(eye);
+	$('.gender').text(gender);
+
 
 	$('.form-one').hide();
 	$('.cat-add').hide();
