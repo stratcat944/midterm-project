@@ -22,6 +22,8 @@ $(".next-add").on('click', function(event){
 	var	eye = $('#eye').val();
 	var gender = $('#radio1 input:checked').val();
 
+
+
 	$('.name').text(name);
 	$('.age').text(age);
 	$('.breed').text(breed);
@@ -42,7 +44,8 @@ $(".third-add").on('click', function(event){
 	$('.cat-add').hide();
 	$('.form-two').hide();
 	$('.form-three').show();
-	console.log(healthNotes);
+	$('.healthNotes').text(healthNotes);
+	// console.log(healthNotes, "whatever");
 })
 
 $(".final-add").on('click', function(event){
@@ -56,7 +59,10 @@ $(".final-add").on('click', function(event){
 	$('.form-two').hide();
 	$('.form-three').hide();
 	$('.form-four').show();
-	console.log(location, intakeDate, placement);
+	$('.location').text(location);
+	$('.intakeDate').text(intakeDate);
+
+	// console.log(location, intakeDate, placement);
 })
 
 $(".last-page").on('click', function(event){
@@ -68,7 +74,8 @@ $(".last-page").on('click', function(event){
 	$('.form-three').hide();
 	$('.form-four').hide();
 	$('.form-five').show();
-	console.log(history);
+	$('.history').text(history);
+	// console.log(history);
 
 })
 
